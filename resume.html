@@ -1,344 +1,327 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style/style.css">
-    <script>
-        window.onload = () => {
-            const date = new Date();
-            document.getElementById('date-container').innerHTML = `The Date is ${date.toLocaleDateString()}`;
-            console.log('Thank you for reading this message in the console')
-        }
-    </script>
-    <title>Resume of Kyle Talbot</title>
-</head>
-<body>
-    <header>
-        <nav>
-            <a></a>
-        </nav>
-    </header>
-    <main>
-        <h1>
-            Kyle Talbot
-        </h1>
-        <h3>
-            Web and Mobile Application Developer
-        </h3>
-        <div id="date-container">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style/style.css">
+        <script>
+            window.onload = () => {
+                const date = new Date();
+                document.getElementById('date-container').innerHTML = `The Date is ${date.toLocaleDateString()}`;
+                console.log('Thank you for reading this message in the console')
+            }
+        </script>
+        <title>Resume of Kyle Talbot</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a></a>
+            </nav>
+        </header>
+        <main>
+            <h1>
+                Kyle Talbot
+            </h1>
+            <h3>
+                Web and Mobile Application Developer
+            </h3>
+            <div id="date-container">
 
-        </div>
-        <section>
-            <h2>
-                Skills
-            </h2>
-            <table>
-                <caption>
-                    Developer Skills
-                </caption>
-                <thead>
+            </div>
+            <section>
+                <h2>
+                    Skills
+                </h2>
+                <table>
+                    <caption>
+                        Developer Skills
+                    </caption>
                     <tr>
-                        <td>
+                        <th>
                             Language
-                        </td>
-                        <td>
+                        </th>
+                        <th>
                             Technologies
-                        </td>
-                        <td>
+                        </th>
+                        <th>
                             Uses
+                        </th>
+                        <th>
+                            Year of Experience
+                        </th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">
+                            JavaScript
                         </td>
                         <td>
-                            Year of Experience
+                            React
+                        </td>
+                        <td>
+                            Web Applications
+                        </td>
+                        <td>
+                            7
                         </td>
                     </tr>
-                </thead>
-                <tr>
-                    <td>
-                        JavaScript
-                    </td>
-                    <td>
-                        React
-                    </td>
-                    <td>
-                        Web Applications
-                    </td>
-                    <td>
-                        7
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-
-                    </td>
-                    <td>
-                        React Native
-                    </td>
-                    <td>
-                        Mobile Applications
-                    </td>
-                    <td>
-                        7
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Ruby
-                    </td>
-                    <td>
-                        Ruby on Rails
-                    </td>
-                    <td>
-                        Web Applications
-                    </td>
-                    <td>
-                        7
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-
-                    </td>
-                    <td>
-                        Ruby on Rails
-                    </td>
-                    <td>
-                        APIs
-                    </td>
-                    <td>
-                        7
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        HTML
-                    </td>
-                    <td>
-
-                    </td>
-                    <td>
-
-                    </td>
-                    <td>
-                        7
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        CSS
-                    </td>
-                    <td>
-
-                    </td>
-                    <td>
-
-                    </td>
-                    <td>
-                        7
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        SQL
-                    </td>
-                    <td>
-
-                    </td>
-                    <td>
-
-                    </td>
-                    <td>
-                        7
-                    </td>
-                </tr>
-            </table>
-        </section>
-        <section>
-            <h2>
-                Work Experience
-            </h2>
-            <ol>
-                <li>
-                    WEB & MOBILE APPLICATION DEVELOPER – CULTIVATE – CHICAGO IL
-                    <br>
-                    June 2018 to Present
-                    <br>
-                    Developed and deployed full stack web and mobile applications
-                    <ul>
-                        <li>
-                            Power Safety App – React Native
-                            <br>
-                            Power company asked us to convert safety resources to a mobile
-                            application including two rulebooks that we converted to HTML, a video,
-                            several static pages and a decision matrix for Personal Protective
-                            Equipment based on the work and conditions. We are updating this
-                            application to receive document updates from a WordPress CMS.
-                            <ul>
-                                <li>
-                                    React Native components for PPE Matrix
-                                </li>
-                                <li>
-                                    Rulebook Documents consumed and stored from WordPress API
-                                </li>
-                                <li>
-                                    Configured TestFlight internally and for client through AppStore Connect
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            Power Job Training Evaluation App – React, Rails, SQLServer, React Native
-                            <br>
-                            Power company asked us to create a custom application to record
-                            trainee progress through their on the job training program. We built a
-                            React web application, a React Native mobile application and a Ruby on
-                            Rails API to communicate between the two. Our application records
-                            instances and evaluation of various tasks and coordinate practical
-                            learning for managers, trainers and recruits.
-                            <ul>
-                                <li>
-                                    REST API with Ruby on Rails
-                                </li>
-                                <li>
-                                    React administrator pages
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            Construction Job Site App – React, Rails, MySQL, React Native
-                            <br>
-                            Road construction company asked us to create a custom application to
-                            replace a variety of dispatch and reporting tasks that depended on
-                            paper forms. We built a React web application, a React Native mobile
-                            application and a Ruby on Rails API to communicate between the two.
-                            Our application dispatches trucks (both internal and broker) to retrieve
-                            material from external plants and deliver to ever-changing jobsites as
-                            well as crew and equipment. Drivers and crew members use their mobile
-                            applications to report the pickup and delivery of loads, job site injuries,
-                            daily per diems, time spent working at the job site, materials spread at
-                            the jobsite, and equipment operated.
-                            <ul>
-                                <li>
-                                    Managed legacy code
-                                </li>
-                                <li>
-                                    On call for bugfixes and data emergencies
-                                </li>
-                                <li>
-                                    Developed time reporting for crew via mobile app and approval for dispatchers
-                                </li>
-                                <li>
-                                    Deployed mobile application through AppStore Connect and Play Store
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            Concrete App – React, Rails, MySQL, React Native
-                            <br>
-                            Concrete company desired to reduce customer phone calls to their
-                            dispatch office for simple status updates while keeping customers
-                            informed. We built a customer-facing React web application that
-                            displayed the most frequently requested information, another React web
-                            application for dispatchers and a mobile application for customers.
-                            <ul>
-                                <li>
-                                    Converted order request form from web to mobile
-                                </li>
-                                <li>
-                                    Added chat to customer and dispatch web apps and customer mobile app
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    STAFF – PEORIA AREA CAMPUS MINISTRIES – PEORIA IL
-                    March 2017 to June 2018
-                    Planned events and developed leaders
-                </li>
-                <li>
-                    PASTORAL INTERN – BETHANY BAPTIST CHURCH – EDWARDS IL
-                    November 2015 to July 2016
-                    Taught adult classes
-                </li>
-                <li>
-                    INTERIM PASTOR – FIRST BAPTIST CHURCH – STREATOR IL
-                    October 2013 to October 2015
-                    Preached weekly sermons, oversaw all activities and developed leaders
-                </li>
-            </ol>
-        </section>
-        <section>
-            <h2>
-                Education
-            </h2>
-            <table>
-                <caption>
-                    Degrees
-                </caption>
-                <thead>
                     <tr>
                         <td>
-                            Degree
+                            React Native
                         </td>
                         <td>
-                            Institution
+                            Mobile Applications
                         </td>
                         <td>
-                            Graduation
-                        </td>
-                        <td>
-                            Enrolled?
+                            7
                         </td>
                     </tr>
-                </thead>
-                <tr>
-                    <td>
-                        BS Computer Science
-                    </td>
-                    <td>
-                        WESTERN GOVERNORS UNIVERSITY
-                    </td>
-                    <td>
+                    <tr>
+                        <td rowspan="2">
+                            Ruby
+                        </td>
+                        <td rowspan="2">
+                            Ruby on Rails
+                        </td>
+                        <td>
+                            Web Applications
+                        </td>
+                        <td>
+                            7
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            APIs
+                        </td>
+                        <td>
+                            7
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            HTML
+                        </td>
+                        <td>
+                            7
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            CSS
+                        </td>
+                        <td>
+                            7
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            SQL
+                        </td>
+                        <td>
+                            7
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            TypeScript
+                        </td>
+                        <td>
+                            React
+                        </td>
+                        <td>
+                            Web Applications
+                        </td>
+                        <td>
+                            2
+                        </td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>
+                    Work Experience
+                </h2>
+                <ol>
+                    <li>
+                        WEB & MOBILE APPLICATION DEVELOPER – CULTIVATE – CHICAGO IL
+                        <br>
+                        June 2018 to Present
+                        <br>
+                        Developed and deployed full stack web and mobile applications
+                        <ul>
+                            <li>
+                                <strong>Power Safety App</strong> – <em>React Native</em>
+                                <br>
+                                Power company asked us to convert safety resources to a mobile
+                                application including two rulebooks that we converted to <em>HTML</em>, a video,
+                                several static pages and a decision matrix for Personal Protective
+                                Equipment based on the work and conditions. We are updating this
+                                application to receive document updates from a <em>WordPress</em> CMS.
+                                <ul>
+                                    <li>
+                                        <em>React Native</em> components for PPE Matrix
+                                    </li>
+                                    <li>
+                                        Rulebook Documents consumed and stored from <em>WordPress</em> API
+                                    </li>
+                                    <li>
+                                        Configured TestFlight internally and for client through AppStore Connect
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Power Job Training Evaluation App</strong> – <em>React, Rails, SQLServer, React Native</em>
+                                <br>
+                                Power company asked us to create a custom application to record
+                                trainee progress through their on the job training program. We built a
+                                <em>React</em> web application, a <em>React Native</em> mobile application and a <em>Ruby on
+                                Rails</em> API to communicate between the two. Our application records
+                                instances and evaluation of various tasks and coordinate practical
+                                learning for managers, trainers and recruits.
+                                <ul>
+                                    <li>
+                                        REST API with <em>Ruby on Rails</em>
+                                    </li>
+                                    <li>
+                                        <em>React</em> administrator pages
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Construction Job Site App</strong> – <em>React, Rails, MySQL, React Native</em>
+                                <br>
+                                Road construction company asked us to create a custom application to
+                                replace a variety of dispatch and reporting tasks that depended on
+                                paper forms. We built a <em>React</em> web application, a <em>React Native</em> mobile
+                                application and a <em>Ruby on Rails</em> API to communicate between the two.
+                                Our application dispatches trucks (both internal and broker) to retrieve
+                                material from external plants and deliver to ever-changing jobsites as
+                                well as crew and equipment. Drivers and crew members use their mobile
+                                applications to report the pickup and delivery of loads, job site injuries,
+                                daily per diems, time spent working at the job site, materials spread at
+                                the jobsite, and equipment operated.
+                                <ul>
+                                    <li>
+                                        Maintained and extended legacy code
+                                    </li>
+                                    <li>
+                                        On call for bugfixes and data emergencies
+                                    </li>
+                                    <li>
+                                        Developed time reporting for crew via mobile app and approval for dispatchers
+                                    </li>
+                                    <li>
+                                        Deployed mobile application through AppStore Connect and Play Store
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Concrete App</strong> – <em>React, Rails, MySQL, React Native</em>
+                                <br>
+                                Concrete company desired to reduce customer phone calls to their
+                                dispatch office for simple status updates while keeping customers
+                                informed. We built a customer-facing React web application that
+                                displayed the most frequently requested information, another React web
+                                application for dispatchers and a mobile application for customers.
+                                <ul>
+                                    <li>
+                                        Converted order request form from web to mobile
+                                    </li>
+                                    <li>
+                                        Added chat to customer and dispatch web apps and customer mobile app
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        STAFF – PEORIA AREA CAMPUS MINISTRIES – PEORIA IL
+                        March 2017 to June 2018
+                        Planned events and developed leaders
+                    </li>
+                    <li>
+                        PASTORAL INTERN – BETHANY BAPTIST CHURCH – EDWARDS IL
+                        November 2015 to July 2016
+                        Taught adult classes
+                    </li>
+                    <li>
+                        INTERIM PASTOR – FIRST BAPTIST CHURCH – STREATOR IL
+                        October 2013 to October 2015
+                        Preached weekly sermons, oversaw all activities and developed leaders
+                    </li>
+                </ol>
+            </section>
+            <section>
+                <h2>
+                    Education
+                </h2>
+                <table>
+                    <caption>
+                        Degrees
+                    </caption>
+                    <tr>
+                        <th>
+                            Degree
+                        </th>
+                        <th>
+                            Institution
+                        </th>
+                        <th>
+                            Graduation
+                        </th>
+                        <th>
+                            Enrolled?
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            BS CS
+                        </td>
+                        <td>
+                            WESTERN GOVERNORS UNIVERSITY
+                        </td>
+                        <td>
 
-                    </td>
-                    <td>
-                        YES
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        M DIV
-                    </td>
-                    <td>
-                        TRINITY EVANGELICAL DIVINITY SCHOOL
-                    </td>
-                    <td>
-                        2013
-                    </td>
-                    <td>
-                        NO
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        BA
-                    </td>
-                    <td>
-                        MOODY BIBLE INSTITUTE
-                    </td>
-                    <td>
-                        2008
-                    </td>
-                    <td>
-                        NO
-                    </td>
-                </tr>
-            </table>
-        </section>
-    </main>
-<footer>
+                        </td>
+                        <td>
+                            YES
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            M DIV
+                        </td>
+                        <td>
+                            TRINITY EVANGELICAL DIVINITY SCHOOL
+                        </td>
+                        <td>
+                            2013
+                        </td>
+                        <td>
+                            NO
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            BA
+                        </td>
+                        <td>
+                            MOODY BIBLE INSTITUTE
+                        </td>
+                        <td>
+                            2008
+                        </td>
+                        <td>
+                            NO
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+        <footer>
 
-</footer>
-</body>
+        </footer>
+    </body>
 </html>
 <!--
     A.  Create an HTML-based résumé that includes each of the following elements:
