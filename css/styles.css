@@ -46,6 +46,10 @@ mark {
 p.filler-variable {
     padding: 2em;
 }
+#date-container {
+    font-style: italic;
+    font-size: 2em;
+}
 /*
 Create one external CSS stylesheet that is linked to ALL of your HTML pages. Ensure that your CSS includes the following components, each of which is applied to at least one HTML element in Aspects A, B, or C
 
