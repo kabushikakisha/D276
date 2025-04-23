@@ -1,4 +1,51 @@
+header {
+    background-color: blue;
+    padding: 2em;
+    text-align: center;
+    a {
+        padding: .5em;
+        margin: 10px;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        border: 1px solid white;
+        background-color: lightseagreen;
+    }
+}
+main {
+    margin-bottom: 200px;
+}
+img {
+    max-width: 100%;
+}
+video {
+    max-width: 100%;
+}
+footer {
+    background-color: lightskyblue;
+    padding: 1em;
+}
+footer p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .7em;
+    text-align: right;
+}
 
+h6 {
+    font-style: italic;
+}
+mark {
+    font-weight: bold;
+}
+
+.filler-variable {
+    background-color: lightpink;
+    color: deeppink;
+    font-weight: bold;
+}
+p.filler-variable {
+    padding: 2em;
+}
 /*
 Create one external CSS stylesheet that is linked to ALL of your HTML pages. Ensure that your CSS includes the following components, each of which is applied to at least one HTML element in Aspects A, B, or C
 

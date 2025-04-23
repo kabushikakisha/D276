@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Career Goals - Kyle Talbot</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
@@ -10,10 +11,12 @@
             <a href="index.html">Home</a>
             <a href="resume.html">Resume</a>
             <a href="cover-letter.html">Cover Letter</a>
+            <a href="career-goals.html">Career Goals</a>
         </nav>
     </header>
     <main>
         <h1>Career Goals</h1>
+        <audio src="media/Noble_House_113bpm_30s.mp3" autoplay controls loop></audio>
         <section>
             <img src="/media/kyle_downtown_compressed.jpg" alt="Kyle Talbot walking">
             <p>
@@ -24,39 +27,56 @@
             <p>
                 I would like to make my kids proud of me
             </p>
-            <video autoplay muted loop src="/media/clapping_compressed.mp4"></video>
+            <video src="/media/clapping_compressed.mp4" autoplay muted loop></video>
         </section>
         <hr>
         <section>
             <form method="post" action="https://wp.zybooks.com/form-viewer.php" id="contact_form">
                 <label for="contact_form">Contact Me</label>
+                <br>
                 <label for="first_name">First Name</label>
                 <input type="text" id="first_name" name="first_name" placeholder="First Name" required>
                 <label for="last_name">Last Name</label>
                 <input type="text" id="last_name" name="last_name" placeholder="Last Name" required>
+                <br>
                 <label for="company_name">Company Name</label>
                 <input type="text" id="company_name" name="company_name" placeholder="Company Name" required>
+                <br>
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Email" required>
                 <label for="phone_number">Phone</label>
                 <input type="tel" id="phone_number" name="phone_number" placeholder="Phone" required>
+                <br>
+                <hr>
                 <label for="message">Message</label>
                 <textarea id="message" name="message" placeholder="Message" required>
                 </textarea>
+                <hr>
                 <label for="best_time">Best Contact Time</label>
                 <input type="time" id="best_time" name="best_time">
+                <br>
                 <label for="best_method">Best Method for Reply</label>
                 <select id="best_method" name="best_method">
                     <option value="email">Email</option>
                     <option value="phone">Phone</option>
                     <option value="text">Text</option>
                 </select>
+                <br>
                 <input type="button" name="action" value="submit">
             </form>
         </section>
     </main>
     <footer>
-
+        <p>
+            This site was made by Kyle Talbot to fulfill the requirements for the Performance Assessment in
+            <strong>D276</strong> - Web Development Foundations at <span>Western Governors University</span>.
+        </p>
+        <p>
+            This page contains pictures of Kyle Talbot and video of Agatha Talbot taken by Kyle Talbot.
+        </p>
+        <p>
+            The audio track at the top of the page is by JJSSSSS {KBT FIX ME} used under license.
+        </p>
     </footer>
 </body>
 </html>
